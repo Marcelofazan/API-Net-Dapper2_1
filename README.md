@@ -1,6 +1,6 @@
-# Api Mysql
+# API-AspNetCore-MySQL-Dapper
 
-Exemplo de API AspNetCore com banco de dados MySQL utilizando Dapper.
+Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper.
 
 ## Requisitos e Detalhe do uso do docker
 
@@ -33,15 +33,13 @@ docker-compose -f docker-compose-mysql.yml down
 
 ## String de conexão do banco
 
-Se já possuir um banco de dados MySql e deseja utilizá-lo na aplicação, modifique a string de conexão no arquivo **appsettings.json**, no trecho indicado:
+Modifique a string de conexão no arquivo **appsettings.json**, no trecho indicado:
 
 ```json
 ...
-  "ConnectionStrings": {
-    "MySqlDbConnection": "server=127.0.0.1;userid=root;password=SUASENHA;database=SEUBANCO;persistsecurityinfo=True"
-  },
+	server=127.0.0.1;userid=root;password=SUASENHA;database=SEUBANCO;persistsecurityinfo=True
 ...
 
 ```
 
-O script para criação da tabela do exemplo e alguns dados iniciais encontra-se na pasta **Database**.
+O script para criação da tabela do exemplo encontra-se na pasta **Database**.
