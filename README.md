@@ -1,4 +1,4 @@
-# API-AspNetCore-MySQL-Dapper
+# API-Net-Dapper
 
 Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper.
 
