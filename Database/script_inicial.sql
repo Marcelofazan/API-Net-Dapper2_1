@@ -1,3 +1,4 @@
+Create Database MyFirstAPI;
 USE MyFirstAPI;
 
 /********************************************************
