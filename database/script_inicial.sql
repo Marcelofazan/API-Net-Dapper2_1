@@ -11,7 +11,7 @@ CREATE TABLE pessoas (
   Telefone varchar(15) DEFAULT NULL,
   Usuario varchar(100) DEFAULT NULL,
   Senha varchar(12) DEFAULT NULL,
-  PRIMARY KEY (`IdPessoa`)
+  PRIMARY KEY (IdPessoa)
 );
 
 /********************************************************
