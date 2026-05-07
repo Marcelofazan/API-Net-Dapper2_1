@@ -18,24 +18,24 @@ Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que s
 Criar o Container:
 
 ```bash
-    docker-compose -f docker-compose-mysql.yml up -d
+docker-compose -f docker-compose-mysql.yml up -d
 ```
 
 Fechar o container:
 
 ```bash
-    docker-compose -f docker-compose-mysql.yml down
+docker-compose -f docker-compose-mysql.yml down
 ```
 
 Para executar a aplicação é necessário a execução do container MySQL. 
 Após iniciar o Container, execute o apalicação:
 
 ```bash
-    dotnet restore
+dotnet restore
 ```
 
 ```bash
-    dotnet run
+dotnet run
 ```
 
 #### Configuração Driver MySQL para IDE (**DBeaver** ou Workbench) 
@@ -47,7 +47,6 @@ Habilitar recuperação:
 Mude seu valor de falso para **verdadeiro**.
 
 - Alternativa (guia SSL): Nas versões mais recentes do DBeaver, você também pode ir até a aba SSL e marcar a caixa **Permitir recuperação de chave pública**.
-
 
 Desativar verificação de certificado (correção rápida) 
 Se você estiver em um ambiente de desenvolvimento e não precisar de validação SSL rigorosa:
